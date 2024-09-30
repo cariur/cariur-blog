@@ -80,3 +80,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Full documentation on how to get started on wisp as well as this starter kit is available on [wisp's documentation site](https://www.wisp.blog/docs/next-js-blog-starter-kit/overview?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp)
 
+# cariur-blog
