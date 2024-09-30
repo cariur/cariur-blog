@@ -4,39 +4,45 @@ import { config } from "@/config";
 import { signOgImageUrl } from "@/lib/og-image";
 import Markdown from "react-markdown";
 
-const content = `# About Me
+// ![Cariur Logo](https://your-image-link.com/logo.png)
+const content = `# About Cariur
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/db7abbe3-aa5c-433e-a16d-cbf137d1c9e5.png/public)
 
-Hey there! I'm Samantha, a 28-year-old former corporate warrior who decided to ditch the 9-to-5 grind and embark on an adventure of a lifetime. After years of hustling in a high-pressure job, I realized that life is too short to be stuck in an office, staring at spreadsheets all day.
+Welcome to **Cariur**, a platform designed for developers, creatives, and students to grow, collaborate, and showcase their talents. Whether you're a seasoned tech professional or just starting out, Cariur provides a supportive community to help you achieve your goals.
 
-So I took a leap of faith, quit my cushy job in Singapore, and decided to see the world on my own terms. No more stuffy meetings or rigid schedules – just me, my backpack, and an open road ahead.
+At Cariur, our mission is to bridge the gap between learning and real-world experience. We provide opportunities for hands-on projects, mentorship, and peer feedback, so you can not only learn but also apply your skills in meaningful ways.
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/6b080e65-2329-4a36-ad5c-0a6af8d9aeb1.png/public)
+![Cariur Team](https://your-image-link.com/team.png)
 
-This blog is where I'll be documenting my travels, sharing my experiences, and hopefully inspiring others to follow their wanderlust. From trekking through remote villages to savoring local cuisines, I'm on a mission to immerse myself in different cultures and create memories that will last a lifetime.
+We believe in the power of community and collaboration. That's why we focus on:
 
-But this journey isn't just about checking off destinations from a bucket list. It's about self-discovery, personal growth, and finding the courage to live life on my own terms. I'll be honest and raw, sharing the highs and lows, the moments of pure bliss and the inevitable challenges that come with solo travel.
+- Structured feedback and detailed insights to help you improve.
+- Real-world projects that simulate startup environments.
+- AI-powered tools that assist in refining your skills and projects.
+- A network of mentors and peers to help you grow.
 
-So join me on this adventure, and let's explore the world together! Who knows, maybe my stories will inspire you to take that leap of faith and pursue your own dreams, whatever they may be.
+Whether you're interested in web development, UI/UX design, or even launching your own startup, Cariur is here to support you every step of the way.
 
-Let's go on an adventure!
+Join us on this exciting journey of growth and discovery. At Cariur, it's all about building the future, together.
 
-Love,
+Let's innovate and create!
 
-Samantha`;
+**Cariur Team**
+`;
 
 export async function generateMetadata() {
   return {
-    title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
+    title: "About Cariur",
+    description:
+      "Learn more about Cariur and our mission to empower developers and creatives",
     openGraph: {
-      title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
+      title: "About Cariur",
+      description:
+        "Learn more about Cariur and our mission to empower developers and creatives",
       images: [
         signOgImageUrl({
-          title: "Samantha",
-          label: "About Me",
+          title: "Cariur",
+          label: "About Cariur",
           brand: config.blog.name,
         }),
       ],

@@ -14,11 +14,11 @@ export const Footer: FunctionComponent = () => {
           © {config.blog.copyright} {new Date().getFullYear()}
         </div>
         <div className="text-xs text-muted-foreground hidden lg:block">
-          <Link
+          {/* <Link
             href={`https://wisp.blog/?utm_source=next-js-template&utm_medium=web&utm_campaign=${config.baseUrl}`}
           >
-            Blog powered by wisp
-          </Link>
+          </Link> */}
+          Blog powered by cariur
         </div>
         <div>
           <Link href="/rss">
@@ -30,11 +30,11 @@ export const Footer: FunctionComponent = () => {
         </div>
       </div>
       <div className="text-xs text-muted-foreground lg:hidden">
-        <Link
+        {/* <Link
           href={`https://wisp.blog/?utm_source=next-js-template&utm_medium=web&utm_campaign=${config.baseUrl}`}
         >
-          Blog powered by wisp
-        </Link>
+        </Link> */}
+        Blog powered by cariur
       </div>
     </section>
   );
